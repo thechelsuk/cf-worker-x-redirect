@@ -27,6 +27,6 @@ export default {
         }
 
         // Redirect to x:// scheme — 302 so it's not cached permanently
-        return Response.redirect(`x://videoUrl?=${target}`, 302);
+        return Response.redirect(`x://?videoURL=${target}`, 302);
     },
 };
