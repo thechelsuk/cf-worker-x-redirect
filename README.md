@@ -2,7 +2,7 @@
 
 Some apps do not support x-callback-urls and url schemes, but do support standard https protocols.
 
-A good example is NetNewsWire, in which I have some themes that have some JavaScript that rewrite the URLs from YouTube videos, I tried the url scheme for my favourite PIP and full screen video player [x.app](https://extension.app) but this didn't work, so instead I rewrite them to a subdomain `vid.thechels.uk`
+A good example is NetNewsWire, in which I have some themes that have some JavaScript that rewrite the URLs from YouTube videos, I tried the url scheme for my favourite PIP and full screen video player [extension.app](https://extension.app) but this didn't work, so instead I rewrite them to a subdomain `vid.thechels.uk`
 
 So this worker fills the gap by taking a url passed to the subdomain and it redirects to `x://?videoUrl=`
 
