@@ -1,6 +1,6 @@
 {
     "name": "cf-worker-x-redirect",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Cloudflare Worker for x-scheme video redirect.",
     "main": "worker/index.js",
     "scripts": {
