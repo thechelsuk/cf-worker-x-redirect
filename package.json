@@ -1,11 +1,11 @@
 {
     "name": "cf-worker-x-redirect",
-    "version": "1.0.7",
-    "description": "Cloudflare Worker for x-scheme video redirect.",
+    "version": "1.0.8",
+    "description": "Cloudflare Worker for URL-scheme video redirect.",
     "main": "worker/index.js",
     "scripts": {
         "deploy": "echo Deploy handled by GitHub Actions"
     },
-    "author": "",
+    "author": "thechelsuk",
     "license": "MIT"
 }
