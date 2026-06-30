@@ -14,5 +14,5 @@ This is then published to Cloudflare as a worker, and is free.
 
 - Craft a url `https://vid.thechels.uk/?v={URL}`
 - The url must be of a YouTube variety
-- have x.app installed
+- have extension.app installed
 - Target URL opens in app.
