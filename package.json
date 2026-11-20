@@ -1,7 +1,7 @@
 {
     "name": "cf-worker-x-redirect",
     "version": "1.0.8",
-    "description": "Cloudflare Worker for URL-scheme video redirect.",
+    "description": "Cloudflare Worker that redirects URLs to x-callback-url schemes for iOS apps that lack native support.",
     "main": "worker/index.js",
     "scripts": {
         "deploy": "echo Deploy handled by GitHub Actions"
